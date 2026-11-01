@@ -1,6 +1,6 @@
 # Tech Challenge Fase 1 - Análise e Estratégia de NPS em E-commerce
 
-Repositório desenvolvido para a entrega do Tech Challenge da Fase 1 (Pós Tech). O projeto analisa dados operacionais e de atendimento de um e-commerce nacional para identificar os principais fatores que geram clientes detratores e propor ações preventivas antes da coleta da pesquisa de satisfaçã.
+Repositório desenvolvido para a entrega do Tech Challenge da Fase 1 (Pós Tech). O projeto analisa dados operacionais e de atendimento de um e-commerce nacional para identificar os principais fatores que geram clientes detratores e propor ações preventivas antes da coleta da pesquisa de satisfação.
 
 ## 1. Objetivo do Projeto
 Com o aumento no volume de vendas do e-commerce, a empresa passou a registrar uma forte queda e variabilidade no seu Net Promoter Score (NPS), acumulando 84,4% de clientes detratores (nota menor que 7,0) e uma média geral de 4,38. Como a pesquisa de NPS só é aplicada após o fim da jornada de compra, a operação atua hoje de forma reativa.
@@ -24,4 +24,3 @@ O estudo foi dividido em quatro etapas principais dentro do notebook principal (
 1. **Entendimento do Negócio:** Diagnóstico do cenário do e-commerce, relação financeira entre NPS e retenção (CAC vs. Recompra) e mapeamento das áreas impactadas (Logística, SAC, Produto e CRM).
 2. **Definição Conceitual da Target:** Análise da variável `nps_score`, segmentação nas faixas de mercado (Detratores `< 7,0`, Neutros `7,0 a 8,9` e Promotores `>= 9,0`) e avaliação dos riscos de vazamento de dados (*data leakage*) com variáveis pós-compra].
 3. **Análise Exploratória de Dados (EDA):** Cruzamento estatístico e visual das variáveis operacionais e demográficas para isolar os reais ofensores da satisfação e encontrar os limites de tolerância do cliente.
-4. **Estratégia Preditiva:** Comparação técnica e executiva entre abordagens de Regressão e Classificação para antecipação de risco na operação.
